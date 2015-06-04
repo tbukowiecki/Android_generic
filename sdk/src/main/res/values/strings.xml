@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cart">Cart</string>
+    <string name="terms_of_service">TERMS OF SERVICE</string>
+    <string name="_continue">CONTINUE</string>
+    <string name="your_cart">Your cart</string>
+    <string name="shipping_to">Shipping to</string>
+    <string name="shipping_to_">Shipping to:</string>
+    <string name="your_order">Your order</string>
+    <string name="your_order_">Your order:</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="transaction_was_canceled">Transaction was canceled</string>
+    <string name="product_choose_qnty">CHOOSE QTY</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="form_email_info">Your email address is needed to send an order confirmation notification as well as notify you when your order has shipped.</string>
+    <string name="form_recipient_name">Recipient\'s Name</string>
+    <string name="form_shipping_address">Shipping Street Address</string>
+    <string name="form_shipping_address_second_line">Address Line 2</string>
+    <string name="form_city">City</string>
+    <string name="form_zip_code">ZIP Code</string>
+    <string name="form_email">E-mail Address</string>
+    <string name="return_to_store">RETURN TO STORE</string>
+    <string name="thank_you_message">Thank you for your purchase from %1$s!\n\nA confirmation email will be sent to you at %2$s.</string>
+    <string name="keep_shopping">Keep shopping! Your cart is currently empty.</string>
+
+    <string name="form_validation_error">"Correct following fields: "</string>
+    <string name="form_choose_country">Choose country</string>
+    <string name="form_choose_province">Choose province</string>
+    <string name="form_choose_state">Choose state</string>
+    <string name="form_choose_cancel">Cancel</string>
+
+    <string name="recipient_model_invalid_city">City</string>
+    <string name="recipient_model_invalid_country_code">Country code</string>
+    <string name="recipient_model_invalid_recipient_name">@string/form_recipient_name</string>
+    <string name="recipient_model_invalid_shipping_address">@string/form_shipping_address</string>
+    <string name="recipient_model_invalid_email">@string/form_email</string>
+    <string name="recipient_model_invalid_state">State</string>
+    <string name="recipient_model_invalid_province">Province</string>
+    <string name="cart_subtotal">Subtotal</string>
+    <string name="connection_error">Connection error. Please try again later.</string>
+    <string name="server_error">Server error. Please try again later.</string>
+    <string name="loading">Loading…</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="shipping">Shipping:</string>
+    <string name="tax_rate">Tax (%1$s):</string>
+    <string name="order_total">Order total:</string>
+    <string name="edit">EDIT</string>
+    <string name="product_choose_quantity">Choose quantity</string>
+    <string name="product_choose_color">Choose color</string>
+    <string name="product_choose_size">Choose size</string>
+    <string name="product_this_product_only_one">This product is currently available only in one %1$s.</string>
+    <string name="product_color">color</string>
+    <string name="product_size">size</string>
+    <string name="product_quantity_needed">How many would you like?</string>
+
+    <string name="product_added_to_cart">Added to cart</string>
+    <string name="cart_delete">Delete item?</string>
+    <string name="cart_no">NO</string>
+    <string name="cart_yes">YES</string>
+    <string name="no_produts">No products</string>
+
+
+    <string-array name="states">
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+
+    <string-array name="states_short">
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+    <string-array name="provinces">
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Monitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Northwest Territories</item>
+        <item>Nova Scotia</item>
+        <item>Nunavut</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <item>Yukon</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>US</item>
+        <item>CA</item>
+    </string-array>
+</resources>

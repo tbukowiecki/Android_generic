@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/continue_button"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="12dp"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/form_recipient_name"
+                android:hint="@string/form_recipient_name"
+                android:nextFocusDown="@+id/form_shipping_street_address"
+                style="@style/form_field" />
+
+            <EditText
+                android:id="@+id/form_shipping_street_address"
+                android:hint="@string/form_shipping_address"
+                android:nextFocusDown="@+id/form_addres_2_line"
+                style="@style/form_field" />
+
+            <EditText
+                android:id="@+id/form_addres_2_line"
+                android:hint="@string/form_shipping_address_second_line"
+                android:nextFocusDown="@+id/form_city"
+                style="@style/form_field" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/form_city"
+                    android:hint="@string/form_city"
+                    android:textColorHint="#808080"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="wrap_content"
+                    android:nextFocusDown="@+id/form_zip_code"
+
+                    style="@style/form_field" />
+
+                <EditText
+                    android:id="@+id/form_zip_code"
+                    android:hint="@string/form_zip_code"
+                    android:textColorHint="#808080"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:inputType="textPostalAddress"
+
+                    style="@style/form_field" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/form_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="12dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="@drawable/form_chooser_background" />
+
+            <TextView
+                android:id="@+id/form_state_province"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="12dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="@drawable/form_chooser_background" />
+
+            <EditText
+                android:id="@+id/form_email"
+                android:hint="@string/form_email"
+                android:inputType="textEmailAddress"
+                style="@style/form_field" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/form_email_info"
+                android:textColor="#004A86"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/continue_button"
+        android:text="@string/_continue"
+        android:layout_alignParentBottom="true"
+        style="@style/next_button" />
+
+</RelativeLayout>
